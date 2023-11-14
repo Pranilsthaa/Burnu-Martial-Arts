@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Orbitron&family=Raleway:wght@500&family=Roboto+Slab:wght@600&display=swap');
+*{
+    margin:0;
+    /* border:1px solid white; */
+}
+
+
+#first_sec{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#first_sec #intro_page{  
+    width:calc(100% - 20vw);
+    height: 80vh;
+    margin-left: 20vw; 
+  
+}
+
+#first_sec nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    height:100vh;
+    width:20%;
+    background: rgba(38, 38, 38, 1);
+    box-shadow: 2px 0px 4px black;
+    z-index:999;
+    
+}
+
+#first_sec nav .img{
+    background: url(../image/exp2.png);
+    position: relative;
+    width:100%;
+    height:200px;
+    mix-blend-mode: lighten;
+    background-size:contain;
+    background-repeat: no-repeat;
+    top:2%;
+    transform: translateY(-2%);
+    overflow: hidden;
+}
+
+#first_sec nav ul{
+    position: relative;
+    padding-left: 0;
+}
+
+#first_sec nav ul li{
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#first_sec nav ul a{
+    text-decoration: none;
+    color: rgba(218, 169, 75, 1);
+}
+
+nav button{
+    position: relative;
+    margin-top: 35px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    background-color: rgba(218, 169, 75, 1) ;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+/* ------------------------------------------------------------------Main PAGE-------------------------------------------------------------------- */
+#intro_page .h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(19, 40, 59);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 4px darkslategray;
+}
+
+#intro_page .main_contain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 150px;
+    padding-top: 60px;
+}
+
+#intro_page .main_contain .container{
+    display: flex;
+    margin-bottom: 50px;
+ 
+}
+
+#intro_page .main_contain .container .details {
+    position: relative;
+    top:25%;
+    transform: translateY(25%);
+    margin-left: 6%;
+    width:450px;
+}
+
+#intro_page .main_contain .container .details h1{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(60, 0, 112);
+}
+
+#intro_page .main_contain .container .details h2{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(46, 76, 124);
+}
+
+#intro_page .main_contain .container .details h3{   
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(58, 65, 71);
+}
+
+#intro_page img{
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 1px 5px 5px black;
+}
+#intro_page img:hover{
+    opacity: 0.7;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}

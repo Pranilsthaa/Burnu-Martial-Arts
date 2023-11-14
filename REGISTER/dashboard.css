@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Orbitron&family=Raleway:wght@500&family=Roboto+Slab:wght@600&display=swap');
+*{
+    margin:0;
+    /* border:1px solid white; */
+}
+
+
+#first_sec{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(44, 34, 20);
+}
+
+
+#first_sec #intro_page{  
+    width:calc(100% - 20vw);
+    height: 80vh;
+    margin-left: 20vw; 
+  
+}
+
+#first_sec nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    height:100vh;
+    width:20%;
+    background: rgba(38, 38, 38, 1);
+    box-shadow: 2px 0px 4px black;
+    z-index:999;
+    
+}
+
+#first_sec nav .img{
+    background: url(../image/exp2.png);
+    position: relative;
+    width:100%;
+    height:200px;
+    mix-blend-mode: lighten;
+    background-size:contain;
+    background-repeat: no-repeat;
+    top:2%;
+    transform: translateY(-2%);
+    overflow: hidden;
+}
+
+#first_sec nav ul{
+    position: relative;
+    padding-left: 0;
+}
+
+#first_sec nav ul li{
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#first_sec nav ul .button{
+    background-color: orange;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    
+}
+
+#first_sec nav ul a{
+    text-decoration: none;
+    color: rgba(218, 169, 75, 1);
+}
+
+nav button{
+    position: relative;
+    margin-top: 35px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    background-color: rgba(218, 169, 75, 1) ;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+/* --------------------------------------------------------USERINFO STYLE------------------------------------------------------------------------- */
+
+
+
+h1{
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0px 0px 4px rgb(226, 198, 198);
+}
+
+.userInfo h3{
+    margin: 50px 0px 20px 50px;
+    font-size: 40px ;
+    color:white ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 4px rgb(152, 3, 0);
+    
+}
+
+.userInfo p{
+    text-align: justify;
+    margin-left: 50px;
+    font-size: 50px ;
+    color:white ;
+    text-shadow: 0px 0px 2px black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.userInfo span{
+    font-family:monospace;
+    font-size: 34px;
+    text-shadow: 0px 0px 2px rgb(255, 222, 7)
+}
+.userInfo a{
+    text-decoration: none;
+    margin-left: 25px;
+    color:greenyellow;
+}
+
+.userInfo a:hover{
+    opacity: 0.4;
+}
